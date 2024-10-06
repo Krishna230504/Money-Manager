@@ -1,0 +1,142 @@
+.bg-container {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.contanier {
+  width: 80%;
+  max-width: 550px;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  height: 172px;
+  border-radius: 16px;
+  margin-top: 64px;
+}
+
+.head {
+  color: #475569;
+  font-size: 24px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.para {
+  color: #475569;
+  font-size: 12px;
+  font-family: 'Roboto';
+}
+
+.highlight {
+  color: #0b69ff;
+  font-weight: 500;
+}
+
+.transaction-details {
+  display: flex;
+}
+
+.transaction-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  height: 424px;
+  width: 100%;
+  border: solid 1px #cbd5e1;
+  border-radius: 12px;
+  padding-right: 24px;
+  padding-left: 24px;
+  padding-top: 24px;
+  padding-bottom: 32px;
+}
+
+.head1 {
+  color: #475569;
+  font-size: 16px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  line-height: 1.6;
+}
+
+.input-label {
+  color: #7e858e;
+  font-size: 12px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  line-height: 1.6;
+}
+
+.title {
+  color: #1e293b;
+  background-color: #ffffff;
+  font-family: 'Roboto';
+  border: 1px solid #d7dfe9;
+  border-radius: 5px;
+  width: 100%;
+  height: 40px;
+  outline: none;
+  padding: 10px;
+}
+
+.but {
+  background-color: #0b69ff;
+  color: #ffffff;
+  border-radius: 5px;
+  border: none;
+  font-family: 'Roboto';
+  font-weight: 500;
+  outline: none;
+  cursor: pointer;
+  padding-right: 24px;
+  padding-left: 24px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.transaction-history {
+  width: 100%;
+  min-height: 326px;
+  border: 1px solid #cbd5e1;
+  border-radius: 12px;
+  padding-right: 24px;
+  padding-left: 24px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  margin-top: 32px;
+}
+
+.transaction-table-container {
+  height: 100%;
+  border-radius: 12px;
+}
+
+.transaction-table {
+  padding-left: 0;
+  margin: 0px;
+}
+
+.table-header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 48px;
+  list-style-type: none;
+  border: 1px solid #cbd5e1;
+}
+
+.table-header-cell {
+  color:#334155;
+   font-size: 12px;
+  font-family: 'Roboto';
+  font-weight: 500;
+
+}
